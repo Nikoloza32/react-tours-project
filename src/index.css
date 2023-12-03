@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: antiquewhite;
+}
+.tours-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+  padding: 5px;
+  border-bottom: 2px solid orange;
+}
+
+.tours-wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  height: 100vh;
+  gap: 30px;
+}
+
+.tour {
+  width: 450px;
+  height: auto;
+  border: 2px solid black;
+  position: relative;
+  border-radius: 12px;
+  padding: 5px;
+  background: rgb(247, 247, 247);
+}
+
+.tour-header {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.tour-image {
+  height: 300px;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 2px solid black;
+}
+
+.tour-price {
+  position: absolute;
+  font-weight: 600;
+  color: green;
+  font-size: 20px;
+  background-color: aliceblue;
+  padding: 5px;
+  border: 1px solid black;
+  top: 0;
+  left: -1px;
+}
+
+.tour-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tour-name {
+  display: flex;
+  font-size: 14px;
+  padding: 2px;
+  margin: 10px;
+  border-bottom: 1px solid black;
+  color: black;
+}
+
+.tour-info {
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  display: flex;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.readmore-button {
+  background-color: black;
+  color: white;
+  border: 0;
+  outline: 0;
+  padding: 5px;
+  cursor: pointer;
+}
+.readmore-button:hover {
+  color: grey;
+}
+
+.tour-delete-button {
+  height: 30px;
+  width: 100%;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  background: black;
+  color: white;
+  border-radius: 4px;
+}
+
+.tour-delete-button:hover {
+  color: green;
+}
+
+.tours-none {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.no-tour {
+  padding: 20px;
+  border: 2px solid black;
+  background: white;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.no-tour:hover {
+  background-color: grey;
+}
